@@ -28,15 +28,15 @@ Homepage
 ![Activity 4 Homepage](assets/img/screenshots/activity4_homepage.jpg)
 
 Repo Screenshot
-![Activity 3 Repo](assets/img/screenshots/activity4_repo.jpg)
+![Activity 4 Repo](assets/img/screenshots/activity4_repo.jpg)
 
 ## Activity 5
 
 Homepage Load More
-![Activity 4 Homepage](assets/img/screenshots/activity5_homepage.jpg)
+![Activity 5 Homepage](assets/img/screenshots/activity5_homepage.jpg)
 
 Homepage Loaded more
-![Activity 4 Homepage](assets/img/screenshots/activity5_homepage2.jpg)
+![Activity 5 Homepage](assets/img/screenshots/activity5_homepage2.jpg)
 
 Repo Screenshot
-![Activity 3 Repo](assets/img/screenshots/activity5_repo.jpg)
+![Activity 5 Repo](assets/img/screenshots/activity5_repo.jpg)
