@@ -13,3 +13,11 @@ Homepage
 
 Repo Screenshot
 ![Repo Screenshot](assets/img/screenshots/activity2.jpg)
+
+## Activity 3
+
+Homepage
+![Activity 3 Homepage](screenshots/activity3_homepage.jpg)
+
+Repo Screenshot
+![Activity 3 Repo](screenshots/activity3_repo.jpg)
