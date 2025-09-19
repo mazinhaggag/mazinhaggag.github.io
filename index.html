@@ -451,7 +451,48 @@
             </div>
           </div>
 
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="mazin.gg" src="https://nextjs.org/static/favicon/favicon-32x32.png"
+                  style="height: 100%; width: 100%; object-fit: contain; padding: 20px; background: #000;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">mazin.gg<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Personal portfolio website built with Nextjs and React
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Next.js, React, TypeScript, Tailwind CSS</li>
+                  <li>Developed a modern, personal portfolio website using Nextjs.</li>
+                  <li>Styled with Tailwind CSS for a clean, professional design.</li>
+                  <li>Used framer motion for animations.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit mazin.gg website" href="https://mazin.gg/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large 
+                    waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- ************* -->
+        </div>
+
+        <!-- Recent Projects -->
+        <h4>Recent Projects</h4>
+        <div id="recent-projects" class="row"></div>
+
+        <div class="center-align" style="margin-top: 20px;">
+          <a id="load-more-btn" href="#" onclick="showMoreProjects(); return false;" class="readme">Load More</a>
         </div>
       </div>
     </section>
@@ -682,6 +723,68 @@
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
       })
     })
+  </script>
+
+  <!-- Projects Script-->
+  <script>
+    // projects array
+    const projects = [
+      {
+        project: "Kojo AIO",
+        description: "Web-store retail automation software",
+        link: "https://kojoaio.com/"
+      },
+      {
+        project: "Kraken Notify",
+        description: "Subscription-based hub for sneaker enthusiasts",
+        link: "https://krakennotify.com/"
+      },
+      {
+        project: "mazin.gg",
+        description: "Personal portfolio website built with Next.js and React",
+        link: "https://mazin.gg/"
+      }
+    ];
+
+    let projectIndex = 0;
+
+    function displayProject(project) {
+      // project card component
+      const projectHTML = `
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-content">
+              <h5 class="teal-text">${project.project}</h5>
+              <p>${project.description}</p>
+              <a href="${project.link}" target="_blank" class="teal-text">View Project</a>
+            </div>
+          </div>
+        </div>
+      `;
+
+      // Add to container
+      document.getElementById('recent-projects').insertAdjacentHTML('beforeend', projectHTML);
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      if (projects.length>0) {
+        displayProject(projects[0]); // for first load
+        projectIndex = 1;
+      }
+    });
+
+    function showMoreProjects() {
+      while (projectIndex < projects.length) {
+        displayProject(projects[projectIndex]);
+        projectIndex++;
+      }
+
+      // Hide button when all projects shown
+      if (projectIndex === projects.length) {
+        const button = document.getElementById('load-more-btn');
+        button.style.display = 'none';
+      }
+    }
   </script>
 </body>
 
