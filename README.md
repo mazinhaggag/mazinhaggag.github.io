@@ -17,26 +17,26 @@ Repo Screenshot
 ## Activity 3
 
 Homepage
-![Activity 3 Homepage](screenshots/activity3_homepage.jpg)
+![Activity 3 Homepage](assets/img/screenshots/activity3_homepage.jpg)
 
 Repo Screenshot
-![Activity 3 Repo](screenshots/activity3_repo.jpg)
+![Activity 3 Repo](assets/img/screenshots/activity3_repo.jpg)
 
 ## Activity 4
 
 Homepage
-![Activity 4 Homepage](screenshots/activity4_homepage.jpg)
+![Activity 4 Homepage](assets/img/screenshots/activity4_homepage.jpg)
 
 Repo Screenshot
-![Activity 3 Repo](screenshots/activity4_repo.jpg)
+![Activity 3 Repo](assets/img/screenshots/activity4_repo.jpg)
 
 ## Activity 5
 
 Homepage Load More
-![Activity 4 Homepage](screenshots/activity5_homepage.jpg)
+![Activity 4 Homepage](assets/img/screenshots/activity5_homepage.jpg)
 
 Homepage Loaded more
-![Activity 4 Homepage](screenshots/activity5_homepage2.jpg)
+![Activity 4 Homepage](assets/img/screenshots/activity5_homepage2.jpg)
 
 Repo Screenshot
-![Activity 3 Repo](screenshots/activity5_repo.jpg)
+![Activity 3 Repo](assets/img/screenshots/activity5_repo.jpg)
