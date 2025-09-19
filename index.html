@@ -732,17 +732,20 @@
       {
         project: "Kojo AIO",
         description: "Web-store retail automation software",
-        link: "https://kojoaio.com/"
+        link: "https://kojoaio.com/",
+        image: "https://kojoaio.com/images/kojo-logo.webp"
       },
       {
         project: "Kraken Notify",
         description: "Subscription-based hub for sneaker enthusiasts",
-        link: "https://krakennotify.com/"
+        link: "https://krakennotify.com/",
+        image: "https://pbs.twimg.com/profile_images/1325172823694995456/A1wKvkc__400x400.jpg"
       },
       {
         project: "mazin.gg",
         description: "Personal portfolio website built with Next.js and React",
-        link: "https://mazin.gg/"
+        link: "https://mazin.gg/",
+        image: "https://avatars.githubusercontent.com/u/65833738?v=4"
       }
     ];
 
@@ -752,7 +755,10 @@
       // project card component
       const projectHTML = `
         <div class="col s12 m6 l4">
-          <div class="card">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="${project.image}" alt="${project.project}" style="height: 200px; width: 100%; object-fit: contain; padding: 20px;">
+            </div>
             <div class="card-content">
               <h5 class="teal-text">${project.project}</h5>
               <p>${project.description}</p>
