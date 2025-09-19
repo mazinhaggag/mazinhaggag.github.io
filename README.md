@@ -29,3 +29,14 @@ Homepage
 
 Repo Screenshot
 ![Activity 3 Repo](screenshots/activity4_repo.jpg)
+
+## Activity 5
+
+Homepage Load More
+![Activity 4 Homepage](screenshots/activity5_homepage.jpg)
+
+Homepage Loaded more
+![Activity 4 Homepage](screenshots/activity5_homepage2.jpg)
+
+Repo Screenshot
+![Activity 3 Repo](screenshots/activity5_repo.jpg)
